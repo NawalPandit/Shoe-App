@@ -36,7 +36,7 @@ struct ShoeCard: View {
             Text("$\(shoePrice)")
                 .fontWeight(.bold)
                 .frame(maxWidth: 150, alignment: .leading)
-            Text("$\(shoeName)")
+            Text("\(shoeName)")
                 .fontWeight(.bold)
                 .opacity(0.3)
                 .frame(maxWidth: 150, alignment: .leading)
